@@ -1,0 +1,7 @@
+curl --location --request POST 'https://hwang1017.us.auth0.com/oauth/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=09KI5NPaiC750lrxc1SOuRfBgpNSiIaM' \
+--data-urlencode 'username=hru_wang@me.com' \
+--data-urlencode 'password=Whr@8866' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'scope=openid'
